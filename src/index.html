@@ -9,5 +9,49 @@
 </head>
 <body>
 
+<header class="header-content container">
+  <a class="logo" href="/">
+    <img class="logo-image" src="images/logo.svg" alt="Music Box">
+    Music Box
+  </a>
+  <nav class="nav">
+    <ul class="nav-list">
+      <li class="nav-list-item">
+        <a class="nav-link active" href="#">Главная</a>
+      </li>
+      <li class="nav-list-item">
+        <a class="nav-link" href="#">Каталог</a>
+      </li>
+      <li class="nav-list-item">
+        <a class="nav-link" href="#">Исполнители</a>
+      </li>
+      <li class="nav-list-item">
+        <a class="nav-link" href="#">Контакты</a>
+      </li>
+    </ul>
+  </nav>
+  <form class="search-form" action="#">
+    <label class="visually-hidden" for="search">Поиск по сайту</label>
+    <input class="search-input" type="text" name="q" id="search" placeholder="Поиск...">
+  </form>
+</header>
+<main>
+  <section class="hero hero-index-bg" id="page-description">
+    <div class="container hero-index-content">
+      <h1>Онлайн музыка где угодно</h1>
+      <h2>без ограничений</h2>
+      <p class="hero-desc">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+      <form class="hero-form" action="#">
+        <label class="visually-hidden" for="name">Имя</label>
+        <input class="hero-input" type="text" name="name" id="name" placeholder="Имя">
+        <label class="visually-hidden" for="email">Email</label>
+        <input class="hero-input" type="email" name="email" id="email" placeholder="Email">
+        <button class="btn btn-green btn-full-width" type="submit">Получить доступ</button>
+      </form>
+    </div>
+  </section>
+</main>
+<footer></footer>
+
 </body>
 </html>
