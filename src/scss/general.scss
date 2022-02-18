@@ -44,7 +44,7 @@ h1 {
   font-size: 60px;
   line-height: 90px;
 
-  @include media($mobile) {
+  @include media($sm) {
     font-size: 30px;
     line-height: 45px;
   }
@@ -54,7 +54,7 @@ h2 {
   font-size: 38px;
   line-height: 57px;
 
-  @include media($mobile) {
+  @include media($sm) {
     font-size: 18px;
     line-height: 27px;
   }

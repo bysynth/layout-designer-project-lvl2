@@ -55,7 +55,7 @@
     color: inherit;
   }
 
-  @include media($tablet) {
+  @include media($md) {
     width: 100%;
   }
 }

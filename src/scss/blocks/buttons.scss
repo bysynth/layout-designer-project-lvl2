@@ -3,7 +3,10 @@
   padding: 20px 30px;
 
   color: $white;
+  text-align: center;
   text-transform: uppercase;
+
+  text-decoration: none;
 
   border-radius: 5px;
   cursor: pointer;
@@ -14,5 +17,9 @@
 
   &-green {
     background-color: $green;
+  }
+
+  &-transparency {
+    border: 1px solid $white;
   }
 }
