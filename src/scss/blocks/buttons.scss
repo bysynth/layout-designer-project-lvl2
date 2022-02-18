@@ -1,0 +1,18 @@
+.btn {
+  @include button-clear;
+  padding: 20px 30px;
+
+  color: $white;
+  text-transform: uppercase;
+
+  border-radius: 5px;
+  cursor: pointer;
+
+  &-full-width {
+    width: 100%;
+  }
+
+  &-green {
+    background-color: $green;
+  }
+}

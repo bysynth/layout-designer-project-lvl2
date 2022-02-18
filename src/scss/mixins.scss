@@ -1,0 +1,25 @@
+@mixin media($size) {
+  @media screen and (max-width: $size) {
+    @content;
+  }
+}
+
+@mixin margin-clear {
+  margin: 0;
+}
+
+@mixin button-clear {
+  margin: 0;
+  padding: 0;
+
+  background: none;
+
+  border: none;
+}
+
+@mixin list-clear {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
