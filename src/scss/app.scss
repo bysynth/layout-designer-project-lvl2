@@ -2,7 +2,8 @@
 @import "mixins";
 @import "general";
 @import "blocks/header";
-@import "blocks/buttons";
+@import "components/buttons";
 @import "blocks/index/hero";
+@import "components/pricing-item";
 @import "blocks/index/pricing";
-@import "blocks/index/news";
+@import "components/news-item";

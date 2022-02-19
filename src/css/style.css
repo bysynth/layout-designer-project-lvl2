@@ -292,18 +292,6 @@ img {
   }
 }
 
-.pricing-list {
-  display: flex;
-  gap: 50px 20px;
-  justify-content: space-between;
-}
-@media screen and (max-width: 1023px) {
-  .pricing-list {
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-}
-
 .pricing-item {
   display: flex;
   flex-direction: column;
@@ -351,6 +339,18 @@ img {
   margin-top: 45px;
   color: #fff;
   text-align: center;
+}
+
+.pricing-list {
+  display: flex;
+  gap: 50px 20px;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1023px) {
+  .pricing-list {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 
 .bg-pricing {
