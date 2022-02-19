@@ -17,11 +17,11 @@
 }
 
 body {
-  @include margin-clear;
+  margin: 0;
 
   color: $dark-gray;
 
-  font-size: 18px;
+  font-size: 16px;
   font-family: Roboto, sans-serif;
   line-height: 1.5;
 
@@ -30,8 +30,9 @@ body {
 
 h1,
 h2,
+h3,
 p {
-  @include margin-clear;
+  margin: 0;
 }
 
 h1,
@@ -57,6 +58,17 @@ h2 {
   @include media($sm) {
     font-size: 18px;
     line-height: 27px;
+  }
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+
+  @include media($sm) {
+    font-size: 18px;
+    line-height: 1.5;
   }
 }
 
@@ -87,4 +99,18 @@ img {
 
   clip: rect(0 0 0 0);
   clip-path: inset(100%);
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.section-header {
+  margin-bottom: 48px;
+
+  color: $white;
 }
