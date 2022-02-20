@@ -1,4 +1,4 @@
-.columns {
+.app-content {
   display: flex;
 
   @include media($lg) {
@@ -10,7 +10,7 @@
   }
 }
 
-.column {
+.app-content .column {
   flex: 0 1 600px;
 
   @include media($md) {
