@@ -584,4 +584,43 @@ footer hr {
   }
 }
 
+.tracks-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 50px;
+}
+@media screen and (max-width: 1023px) {
+  .tracks-list {
+    flex-direction: column;
+  }
+}
+
+.track {
+  display: flex;
+  flex: 0 1 47%;
+  max-width: 550px;
+}
+.track img {
+  width: 55px;
+  height: 55px;
+  margin-right: 15px;
+}
+
+.track-info {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12.8px;
+  line-height: 19.2px;
+}
+
+.track-desc h3 {
+  color: #fff;
+  font-weight: 700;
+  font-size: inherit;
+  line-height: inherit;
+  text-transform: uppercase;
+}
+
 /*# sourceMappingURL=style.css.map */

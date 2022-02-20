@@ -1,0 +1,9 @@
+.tracks-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 50px;
+
+  @include media($lg) {
+    flex-direction: column;
+  }
+}
