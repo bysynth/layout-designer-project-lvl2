@@ -278,6 +278,20 @@ footer hr {
   }
 }
 
+.hero {
+  padding: 200px 0;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-index-bg {
+  background-image: url("../images/banner.png");
+}
+
+.hero-artist-bg {
+  background-image: url("../images/Morten Harket.png");
+}
+
 .btn {
   margin: 0;
   padding: 0;
@@ -315,15 +329,25 @@ footer hr {
   background-color: #95390c;
   border-radius: 32px;
 }
-
-.hero {
-  padding: 200px 0;
+.btn-icon {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  padding: 20px 30px;
+  font-size: 12.8px;
+  text-align: left;
 }
-
-.hero-index-bg {
-  background-image: url("../images/banner.png");
-  background-position: center;
-  background-size: cover;
+.btn-icon img {
+  width: 20px;
+  height: 20px;
+  margin-right: 1rem;
+  filter: invert(100%);
+}
+.btn-mix {
+  background-color: #5328a1;
+}
+.btn-favorite {
+  background-color: #95390c;
 }
 
 .hero-index-content {
@@ -539,6 +563,25 @@ footer hr {
 .app-image {
   display: flex;
   justify-content: center;
+}
+
+.hero-artist-content {
+  color: #fff;
+}
+.hero-artist-content h1 {
+  margin-top: 50px;
+  margin-bottom: 1rem;
+}
+
+.buttons-list {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 48px;
+}
+@media screen and (max-width: 424px) {
+  .buttons-list {
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

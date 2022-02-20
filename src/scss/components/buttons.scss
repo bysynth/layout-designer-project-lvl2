@@ -46,4 +46,32 @@
 
     border-radius: 32px;
   }
+
+  &-icon {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    padding: 20px 30px;
+
+    font-size: 12.8px;
+
+    text-align: left;
+
+    & img {
+      width: 20px;
+      height: 20px;
+
+      margin-right: 1rem;
+
+      filter: invert(100%);
+    }
+  }
+
+  &-mix {
+    background-color: $purple;
+  }
+
+  &-favorite {
+    background-color: $red;
+  }
 }
