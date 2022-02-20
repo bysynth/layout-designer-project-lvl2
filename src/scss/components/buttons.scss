@@ -34,4 +34,16 @@
 
     border: 1px solid $dark-gray;
   }
+
+  &-download {
+    padding: 16px 40px;
+
+    font-size: 12.8px;
+
+    text-transform: none;
+
+    background-color: $red;
+
+    border-radius: 32px;
+  }
 }
