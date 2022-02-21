@@ -611,6 +611,7 @@ footer hr {
   flex-grow: 1;
   align-items: center;
   justify-content: space-between;
+  color: #e0e0e0;
   font-size: 12.8px;
   line-height: 19.2px;
 }
@@ -621,6 +622,32 @@ footer hr {
   font-size: inherit;
   line-height: inherit;
   text-transform: uppercase;
+}
+
+.discography {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 50px;
+}
+
+.discography-item {
+  width: 250px;
+}
+@media screen and (max-width: 767px) {
+  .discography-item {
+    width: 137px;
+  }
+}
+
+.discography-info {
+  margin-top: 18px;
+  color: #e0e0e0;
+}
+.discography-info h3 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
 }
 
 /*# sourceMappingURL=style.css.map */
