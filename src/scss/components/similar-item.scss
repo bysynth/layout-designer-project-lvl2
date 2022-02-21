@@ -1,0 +1,27 @@
+.similar-item {
+  width: 250px;
+
+  & img {
+    border-radius: 50%;
+  }
+
+  @include media($md) {
+    width: 137px;
+  }
+}
+
+.similar-info {
+  margin-top: 17px;
+
+  color: $gray;
+
+  text-align: center;
+
+  & h3 {
+    color: $white;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+  }
+}

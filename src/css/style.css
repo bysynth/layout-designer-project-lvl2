@@ -650,4 +650,34 @@ footer hr {
   line-height: 27px;
 }
 
+.similar-artists {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 50px;
+}
+
+.similar-item {
+  width: 250px;
+}
+.similar-item img {
+  border-radius: 50%;
+}
+@media screen and (max-width: 767px) {
+  .similar-item {
+    width: 137px;
+  }
+}
+
+.similar-info {
+  margin-top: 17px;
+  color: #e0e0e0;
+  text-align: center;
+}
+.similar-info h3 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+}
+
 /*# sourceMappingURL=style.css.map */
