@@ -34,6 +34,12 @@
   margin-bottom: 30px;
 
   color: $white;
+
+  text-transform: capitalize;
+
+  @include media($md) {
+    margin-bottom: 1rem;
+  }
 }
 
 .news-content p {

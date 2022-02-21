@@ -1,6 +1,6 @@
 .hero-index-content {
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
 
   & h1,
   & h2 {
@@ -8,20 +8,31 @@
 
     text-align: center;
   }
+
+  & h1 {
+    @include media($md) {
+      margin-top: 50px;
+    }
+  }
 }
 
 .hero-desc {
   margin-top: 30px;
-  margin-bottom: 17px;
+  margin-bottom: 16px;
 
   color: $white;
 
   text-align: center;
+
+  @include media($md) {
+    margin-top: 16px;
+  }
 }
 
 .hero-form {
   display: flex;
   flex-wrap: wrap;
+  align-self: center;
   justify-content: space-between;
   max-width: 570px;
 }

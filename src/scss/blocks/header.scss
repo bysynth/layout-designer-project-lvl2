@@ -27,15 +27,15 @@
 
   color: inherit;
 
-  white-space: nowrap;
-
-  text-decoration: none;
-
   &-image {
     width: 24px;
     height: 24px;
 
     margin-right: 16px;
+  }
+
+  & span {
+    white-space: nowrap;
   }
 
   @include media($md) {
@@ -47,7 +47,7 @@
   margin-left: 90px;
 
   @include media($md) {
-    margin-bottom: 18px;
+    margin-bottom: 12px;
     margin-left: 0;
   }
 }

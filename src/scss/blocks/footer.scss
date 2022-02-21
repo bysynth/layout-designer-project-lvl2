@@ -9,18 +9,26 @@ footer h2 {
   line-height: 27px;
 }
 
-footer a {
+footer a,
+footer p {
   color: $gray;
+}
+
+footer a {
   text-decoration: none;
 }
 
 .footer-top {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 0;
+  padding: 62px 0 72px;
 
   & .column {
     width: 270px;
+
+    @include media($sm) {
+      width: auto;
+    }
   }
 
   & h2 {
@@ -30,6 +38,12 @@ footer a {
   @include media($lg) {
     flex-wrap: wrap;
     row-gap: 30px;
+  }
+
+  @include media($sm) {
+    flex-direction: column;
+
+    padding-bottom: 76px;
   }
 }
 
@@ -47,7 +61,7 @@ footer hr {
 }
 
 .footer-bottom {
-  padding: 2rem 0;
+  padding: 40px 0 48px;
 
   & .links-list {
     display: flex;
@@ -59,6 +73,12 @@ footer hr {
 
     @include media($sm) {
       flex-direction: column;
+    }
+  }
+
+  & .links-list a {
+    @include media($sm) {
+      display: block;
     }
   }
 }

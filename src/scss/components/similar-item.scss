@@ -1,10 +1,6 @@
 .similar-item {
   width: 250px;
 
-  & img {
-    border-radius: 50%;
-  }
-
   @include media($md) {
     width: 137px;
   }
@@ -23,5 +19,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 27px;
+
+    text-transform: capitalize;
   }
 }

@@ -1,9 +1,15 @@
 .hero-artist-content {
+  padding-bottom: 28px;
+
   color: $white;
 
   & h1 {
     margin-top: 50px;
     margin-bottom: 1rem;
+
+    @include media($md) {
+      margin-top: 24px;
+    }
   }
 }
 
@@ -11,7 +17,7 @@
   display: flex;
   gap: 1.5rem;
 
-  margin-top: 48px;
+  margin-top: 50px;
 
   @include media($sm) {
     flex-direction: column;
